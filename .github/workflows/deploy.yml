@@ -23,3 +23,20 @@ jobs:
           HD_ALD_USR: ${{secrets.ALD_USR}}
           HD_BASE_URL_OF_BOT: ${{secrets.BASE_URL_OF_BOT}}
           HD_OWNER_ID: ${{secrets.OWNER_ID}}
+          HD_TG_UP_LIMIT: ${{secrets.TG_UP_LIMIT}}
+          HD_RCLONE_ENABLED: ${{secrets.RCLONE_ENABLED}}
+          HD_GD_INDEX_URL: ${{secrets.GD_INDEX_URL}}
+          HD_EDIT_SLEEP_SECS: ${{secrets.EDIT_SLEEP_SECS}}
+          HD_COMPLETED_STR: ${{secrets.COMPLETED_STR}}
+          HD_REMAINING_STR: ${{secrets.REMAINING_STR}}
+          HD_MEGA_API: ${{secrets.MEGA_API}}
+          HD_MEGA_ENABLE: ${{secrets.MEGA_ENABLE}}
+          HD_MEGA_PASS: ${{secrets.MEGA_PASS}}
+          HD_MEGA_UNAME: ${{secrets.MEGA_UNAME}}
+          HD_DATABASE_URL: ${{secrets.DATABASE_URL}}
+          HD_BOT_CMD_POSTFIX: ${{secrets.BOT_CMD_POSTFIX}}
+          
+          
+          
+          
+          
