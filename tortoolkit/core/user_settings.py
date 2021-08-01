@@ -42,7 +42,10 @@ async def handle_user_setting_callback(e):
 
     if cmd[-1] != sender_id:
         print("Sender id", sender_id, " - - ", cmd[-1])
-        await e.answer("Dont dare to touch.You are not the sender of this file to the Bot.", alert=True)
+        await e.answer(
+            "Dont dare to touch.You are not the sender of this file to the Bot.",
+            alert=True,
+        )
         # await e.delete()
         return
     if cmd[1] == "mycmd":
